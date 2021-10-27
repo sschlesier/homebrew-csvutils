@@ -4,7 +4,7 @@ class Tabulator < Formula
   url "https://github.com/stefan-schroedl/tabulator/archive/v1.2.1.tar.gz"
   sha256 "a83d044212b00ccee9b2ce187f9442b1eb41798b9a84a9216cb9773af5c3601b"
   license "MIT"
-  bottle :unneeded
+  revision 1
 
   def install
     bin.install Dir["bin/tbl*"]
