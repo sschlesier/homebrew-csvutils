@@ -1,8 +1,8 @@
 class Csvquote < Formula
   desc "Smart and simple CSV processing on the command-line"
   homepage "https://github.com/sschlesier/csvquote"
-  url "https://github.com/sschlesier/csvquote/archive/v0.1.2.tar.gz"
-  sha256 "be4b2942a03755695d448b5390176256e8cfb5275b4c37108a3518527bff1d9f"
+  url "https://github.com/sschlesier/csvquote/archive/v0.1.3.tar.gz"
+  sha256 "c513d1bb48f4c83ab08abff93c7e90bdbd9432ba5dd57e26e747e3b7d6834602"
   license "MIT"
 
   def install
