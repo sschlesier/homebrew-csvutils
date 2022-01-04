@@ -7,8 +7,8 @@ class Csvquote < Formula
 
   def install
     system "make"
-    ENV["PREFIX"]=ENV["HOMEBREW_FORMULA_PREFIX"] + "/bin"
-    mkdir ENV["PREFIX"]
+    ENV["BINDIR"]=ENV["HOMEBREW_FORMULA_PREFIX"] + "/bin"
+    mkdir ENV["BINDIR"]
     system "make", "install"
   end
 
