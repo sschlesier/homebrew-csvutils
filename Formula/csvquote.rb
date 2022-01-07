@@ -3,8 +3,8 @@ class Csvquote < Formula
   homepage "https://github.com/dbro/csvquote"
   url "https://github.com/dbro/csvquote/archive/v0.1.5.tar.gz"
   sha256 "2e83c902f33efccaec55707b025c6da5367f786d5a117eaf386a6e17741b9d40"
-  revision 1
   license "MIT"
+  revision 1
 
   def install
     system "make"
